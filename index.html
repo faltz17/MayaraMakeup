@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mayara Makeup</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__hamburguer container__imagem" ></span>
+            </label>
+            <ul class="lista-menu" class="container__rotulo">
+                <li class="lista-menu__titulo"> Categorias</li>
+                <li class="lista-menu__item">
+                     <a href="#" class="lista-menu__link"> Skin Care</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Face </a>
+               </li>
+               <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link"> Boca </a>
+              </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Olhos </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Paletas </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Pincéis</a>
+             </li>
+            </ul>
+            <img src="img/menu.may.svg" alt="menu" class="container__imagem">
+            <img src="img/logoprincipalmay.svg" alt="Logo" class="container__imagem">
+            <h1 class="container__titulo"> Papelaria <b class="container__titulo--negrito"> Alforria</b></h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão"> 
+            <label for="opções-menu">
+                <li class="lista-menu__titulo"> Categorias</li>
+            </label>
+            <li class="lista-menu__titulo"> Favoritos </li>
+            <li class="lista-menu__titulo"> Minhas compras</li>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                     <a href="#" class="lista-menu__link"> Skin Care </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Boca</a>
+               </li>
+               <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link"> Olhos</a>
+              </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Paletas </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Pincéis </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Outros</a>
+             </li>
+            </ul>
+
+            <div class="container">
+                <a href="#"> <img src="img/favmay.svg" alt="Meus favoritos"
+                     class="container__imagem   container__imagem-transparente"></a>
+                <a href="#"  class="container__link">
+                     <img src="img/carrinhomay.svg" alt="Carrinho de compras" class="container__imagem"></a>
+                    <p class="container__texto"> Minha Sacola</p>
+                <a href="#" class="container__link">
+                     <img src="img/perfilmay.svg" alt="Meu perfil" class="container__imagem"></a>
+                     <p class="container__texto"> Meu Perfil</p>
+            </div>
+    </header>
+
+    <header>
+        <section class="banner">
+         <h2 class="banner__titulo"> GANHE NAS COMPRAS DO SITE</h2>
+         <p class="banner__texto"> 05 PRESENTES A PATIR DE R$499</p>
+        <input type="search" class="banner__pesquisa" placeholder="Digite aqui, o que você procura?">
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo"> Novos Lançamentos</h2>
+
+            <!-- Slider main container -->
+            <div class="carrossel__container"></div>
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/lápis profissional (1) (1).svg"
+         alt=" Lápsi Profissional"></div>
+      <div class="swiper-slide"><img src="img/gel modelador.svg"
+         alt="gel modelador"></div>
+      <div class="swiper-slide"> <img src="img/esponjinha (1).png" 
+        alt=" esponja ruby rose"></div>
+      <div class="swiper-slide"><img src="img/Caneta esfereográfica.png" 
+        alt="Caneta cis"></div>
+      <div class="swiper-slide"><img src="img/Caneta Fabber.jpg" 
+        alt=" Kit de canetas Fabber Castell"></div>
+      <div class="swiper-slide"><img src="img/estojo tilibra.png" 
+        alt="estojo tilibra"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <div class="card">
+      <!--1°linha-->
+      <div class="card__descrição">
+           <!--1°coluna-->
+          <div class="descrição">
+              <h3 class="descrição__titulo"></h3>
+              <h2 class="descrição__titulo-livro"> Quanto mais você compra, mas você GANHA!</h2>
+              <p class="descrição__texto"> APROVEITE E LEVE ATÉ 6 BRINDES</p>
+              <p class="descrição__texto-s"> Paleta pra contorno de R$49,90 POR R$39,90</p>
+          </div>
+           <!--2° coluna-->
+      <img src="img/paletadecontornoempó.png" alt="descrição__imagem">
+      </div>
+       <!--2° linha-->
+       <div class="card__botões">
+          <!--1° coluna-->
+          <ul class="botões">
+              <li class="btões__items"><img src="img/favmay.svg" alt="favoritar livro"></li>
+              <li class="botões__items"> <img src="img/carrinhomay.svg" alt="Adicionar no carrinho de compras"></li>
+          </ul>
+          <!--2° coluna-->
+          <a href="#" class="botões__ancora"> Saiba mais</a>
+       </div>
+    </div>
+
+    <section class="carrossel">
+      <h2 class="carrossel__titulo"> PALETA DE SOMBRAS</h2>
+
+      <!-- Slider main container -->
+      <div class="carrossel__container"></div>
+<div class="swiper">
+<!-- Additional required wrapper -->
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<div class="swiper-wrapper">
+<!-- Slides -->
+<div class="swiper-slide"><img src="img/paleta de sombras bt peony.png"
+   alt=" Lápsi Profissional"></div>
+<div class="swiper-slide"><img src="img/paleta de sombras karen bachini.png"
+   alt="gel modelador"></div>
+<div class="swiper-slide"> <img src="img/paleta de sombras love flavors.png" 
+  alt=" esponja ruby rose"></div>
+<div class="swiper-slide"><img src="img/paleta de sombras minnie.png" 
+  alt="Caneta cis"></div>
+<div class="swiper-slide"><img src="img/paleta de sombras mint mood.png" 
+  alt=" Kit de canetas Fabber Castell"></div>
+<div class="swiper-slide"><img src="img/paleta de sombras smokey eyes.png" 
+  alt="estojo tilibra"></div>
+</div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</section>
+
+<section class="carrossel">
+  <h2 class="carrossel__titulo"> ACESSÓRIOS</h2>
+
+  <!-- Slider main container -->
+  <div class="carrossel__container"></div>
+<div class="swiper">
+<!-- Additional required wrapper -->
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<div class="swiper-wrapper">
+<!-- Slides -->
+<div class="swiper-slide"><img src="img/faixa de cabelo rosa.png"
+alt=" Lápsi Profissional"></div>
+<div class="swiper-slide"><img src="img/tapete de silicone para pincéis.png"
+alt="gel modelador"></div>
+<div class="swiper-slide"> <img src="img/_pincéisb102.png" 
+alt=" esponja ruby rose"></div>
+<div class="swiper-slide"><img src="img/_pinceldesilicone.png" 
+alt="Caneta cis"></div>
+<div class="swiper-slide"><img src="img/kitcom06pincéis.png" 
+alt=" Kit de canetas Fabber Castell"></div>
+<div class="swiper-slide"><img src="img/higienizadordepicéis.png" 
+alt="estojo tilibra"></div>
+</div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</section>
+
+
+<section class="carrossel">
+        <h2 class="carrossel__osfavoritos"> MAIS VENDIDOS</h2>
+         <!-- Slider main container -->
+        <div class="carrossel__container">
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/blindagempoderosa.png"
+         alt=" blindagempoderosa"></div>
+      <div class="swiper-slide"><img src="img/corretivo rk.png"
+         alt="Corretivo rk"></div>
+      <div class="swiper-slide"> <img src="img/creme facial.png" 
+        alt=" creme facial"></div>
+      <div class="swiper-slide"><img src="img/delineadormelu.png" 
+        alt="dekineador melu"></div>
+      <div class="swiper-slide"><img src="img/glosschilli.png" 
+        alt=" gloss"></div>
+      <div class="swiper-slide"><img src="img/sabonetefacialmelu.png" 
+        alt="sabonetefacialmelu"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+<section class="tópicos">
+    <h2 class="tópicos__título"> TÓPICOS MAIS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Android</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Marketing digital</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Agile</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Startups</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> HTML e CSS</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Pyton</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> OO </a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Java</a>
+     </li>
+    </ul>
+</section>
+ 
+<section class="contato">
+    <div class="contato__descrição">
+     <h2 class="contato__titulo"> FIQUE POR DENTRO DAS NOVIDADES!</h2>
+     <p class="contato__texto"> Novidades, promoções, cumpom de desconto e outros</p>
+     </div>
+     <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+</section>
+
+<hr/>
+
+<footer class="rodapé">
+    <h2 class="rodapé__titulo"> Mayara Makeup</h2>
+    <ul class="listarodapé">
+        <li class="Lista-rodapé__link"> Ajuda</li>
+        <li class="lista-rodapé__item">
+          <h2> Formas de pagamento</h2>
+          <h2> Entregas</h2>
+          <h2> Trocas e Devoluções</h2>
+          <h2> Entre em contato</h2>
+        </li>
+    </ul>
+
+
+    <ul class="lista-rodapé">
+        <li class="Lista-rodapé__link"> Fale com a gente
+           
+         <a href="#" class="lista-rodapé__link">
+              <img src="img/faxmay (1).png" alt="fax alforria"> (44)4444-4444</a>
+          <h2> Formas de pagamento</h2>
+          <h2> Entregas</h2>
+          <h2> Trocas e Devoluções</h2>
+          <h2> Entre em contato</h2>
+        </li>
+    </ul>
+
+</footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: { 
+            el: '.swiper-pagination',
+            type: 'bullets',
+        }
+     });
+    </script>
+</body>
+</html>
+
